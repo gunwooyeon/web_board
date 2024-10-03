@@ -4,5 +4,5 @@ services:
   my_service:  # 서비스 이름
     image: nexus.com:5000/your-image-name:latest  # 이미지 경로
     ports:
-      - 8080:8080  # 포트 매핑
+      - 8090:8090  # 포트 매핑
     restart: always  # 컨테이너가 중지되었을 때 항상 재시작하도록 설정
